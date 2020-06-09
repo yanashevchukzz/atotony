@@ -1,0 +1,153 @@
+/* Page styling */
+.content {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.explanation {
+    margin: 20px auto 0;
+    position: relative;
+    width: 60%;
+}
+
+.explanation.hidden {
+    display: none;
+}
+
+.checkout-container {
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.checkout {
+    margin: 0 auto;
+    position: relative;
+    width: 60%;
+}
+
+@media (max-width: 520px) {
+    .explanation {
+        width: 100%;
+    }
+
+    .checkout {
+        width: 100%;
+    }
+}
+
+
+/* In case you only want to show the icon */
+.cse-cardtype {
+    height: 22px;
+    width: 40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.cse-cardtype-style-active {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+/* The icons of various card types */
+.cse-cardtype-mc {
+    background-image: url("");
+}
+
+.cse-cardtype-visadankort {
+    background-image: url("");
+}
+
+.cse-cardtype-visa {
+    background-image: url("");
+}
+
+.cse-cardtype-amex {
+    background-image: url("");
+}
+
+.cse-cardtype-vias {
+    background-image: url("");
+}
+
+.cse-cardtype-diners {
+    background-image: url("");
+}
+
+.cse-cardtype-maestrouk {
+    background-image: url("");
+}
+
+.cse-cardtype-solo {
+    background-image: url("");
+}
+
+.cse-cardtype-laser {
+    background-image: url("");
+}
+
+.cse-cardtype-discover {
+    background-image: url("");
+}
+
+.cse-cardtype-jcb {
+    background-image: url("");
+}
+
+.cse-cardtype-bcmc {
+    background-image: url("");
+}
+
+.cse-cardtype-bijcard {
+    background-image: url("");
+}
+
+.cse-cardtype-dankort {
+    background-image: url("");
+}
+
+.cse-cardtype-hipercard {
+    background-image: url("");
+}
+
+.cse-cardtype-maestro {
+    background-image: url("");
+}
+
+.cse-cardtype-elo {
+    background-image: url("");
+}
+
+.cse-cardtype-uatp {
+    background-image: url("");
+}
+
+.cse-cardtype-cup {
+    background-image: url("");
+}
+
+.cse-cardtype-cartebancaire {
+    background-image: url("");
+}
+
+.cse-cardtype-visaalphabankbonus {
+    background-image: url("");
+}
+
+.cse-cardtype-mcalphabankbonus {
+    background-image: url("");
+}
+.cse-cardtype-karenmillen {
+    background-image: url("");
+}
+.cse-cardtype-oasis {
+    background-image: url("");
+}
+.cse-cardtype-warehouse {
+    background-image: url("");
+}
